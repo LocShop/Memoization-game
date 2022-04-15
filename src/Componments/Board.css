@@ -1,0 +1,90 @@
+/* .Main{
+    background-color: #f4f4f4;
+    text-align: center;
+    display:grid;
+    place-content: center;
+    height: 100vh;
+} */
+#chassboard {
+    z-index: 1000;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  width: 306px;
+  margin-top: 250px;
+}
+#boxes {
+  border: 1px solid black;
+  width: 100px !important;
+  height: 100px !important;
+}
+.button {
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.buttonOne {
+  width: 49%;
+ 
+}
+.buttonTwo {
+  width: 49%;
+}
+.buttonOneIn {
+  width: 100%;
+  border:1px solid;
+  font-size: 16px;
+  padding: 6px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color:white !important;
+}
+.buttonTwoIn {
+  width: 100%;
+  border-radius: 5px;
+  border:1px solid;
+  font-size: 16px;
+  padding: 6px 8px;
+  cursor: pointer;
+  background-color:white !important;
+  
+}
+
+.title {
+  margin-left: 50px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.level {
+    width:300px;
+  margin-right: 50px;
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.life{
+    margin-top: 60px;
+}
+.headerName{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.lifeLineNum{
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    /* height:100vh */
+}
+
+.centerdiv{
+    margin:60px 0px;
+}
