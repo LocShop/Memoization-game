@@ -17,7 +17,6 @@ const Chass = () => {
     }    
   }, [start, a]);
 
-  
   const randomValue = () => {
     for (let i = 0; i < a; i++) {
       let value3 = Math.floor(Math.random() * c);
