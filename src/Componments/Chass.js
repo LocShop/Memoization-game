@@ -14,7 +14,7 @@ const Chass = () => {
   useEffect(() => {
     if (start) {
       randomValue();
-    }
+    }    
   }, [start, a]);
 
   const randomValue = () => {
